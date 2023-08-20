@@ -111,7 +111,7 @@
                         <h5>{{question.title}}</h5>
                     </div>
                     {%csrf_token%}
-                    <b>{{question.text}}</b><br />
+                    <!-- <b>{{question.text}}</b><br /> -->
                     <div class="form-group">
                         {% for choice in question.choice_set.all %}
                         <div class="form-check">
